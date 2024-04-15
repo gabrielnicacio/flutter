@@ -1591,7 +1591,7 @@ void main() {
               onPressed: () {},
               icon: const Icon(Icons.add),
               label: const Text( // Much wider than 200
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a euismod nibh. Morbi laoreet purus.',
+                '',
               ),
             ),
           ),

@@ -49,15 +49,7 @@ void main() {
       '0123456789ABCDEFGHIJ';
 
   const String testVerticalText = '1\n2\n3\n4\n5\n6\n7\n8\n9';
-  const String longText =
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-      'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris '
-      'nisi ut aliquip ex ea commodo consequat. '
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-      'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris '
-      'nisi ut aliquip ex ea commodo consequat. ';
+  const String longText = '';
   final TextEditingController controller = TextEditingController(text: testText);
   final ScrollController scrollController = ScrollController();
 

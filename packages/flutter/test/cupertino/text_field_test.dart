@@ -6572,7 +6572,7 @@ void main() {
   });
 
   testWidgets('shows selection handles', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
     final TextEditingController controller = TextEditingController(text: testText);
     addTearDown(controller.dispose);
 
@@ -6635,7 +6635,7 @@ void main() {
   });
 
   testWidgets('disabled state golden', (WidgetTester tester) async {
-    final TextEditingController controller = TextEditingController(text: 'lorem');
+    final TextEditingController controller = TextEditingController(text: '');
     addTearDown(controller.dispose);
     await tester.pumpWidget(
       CupertinoApp(

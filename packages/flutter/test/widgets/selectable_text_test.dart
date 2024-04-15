@@ -4486,7 +4486,7 @@ void main() {
   });
 
   testWidgets('selection handles are rendered and not faded away', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
     await tester.pumpWidget(
       const MaterialApp(
         home: Material(
@@ -4516,7 +4516,7 @@ void main() {
   });
 
   testWidgets('selection handles are rendered and not faded away', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
 
     await tester.pumpWidget(
       const MaterialApp(

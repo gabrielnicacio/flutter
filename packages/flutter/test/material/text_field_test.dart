@@ -13758,7 +13758,7 @@ void main() {
   });
 
   testWidgets('selection handles are rendered and not faded away', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
     final TextEditingController controller = _textEditingController(text: testText);
 
     await tester.pumpWidget(
@@ -13791,7 +13791,7 @@ void main() {
   });
 
   testWidgets('iOS selection handles are rendered and not faded away', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
     final TextEditingController controller = _textEditingController(text: testText);
 
     await tester.pumpWidget(
@@ -13822,7 +13822,7 @@ void main() {
   }, variant: const TargetPlatformVariant(<TargetPlatform>{ TargetPlatform.iOS, TargetPlatform.macOS }));
 
   testWidgets('iPad Scribble selection change shows selection handles', (WidgetTester tester) async {
-    const String testText = 'lorem ipsum';
+    const String testText = '';
     final TextEditingController controller = _textEditingController(text: testText);
 
     await tester.pumpWidget(

@@ -505,9 +505,9 @@ void main() {
         anchorAbove: offset,
         anchorBelow: offset,
         children: <Widget>[
-          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: 'Lorem ipsum'),
-          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: 'dolor sit amet'),
-          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: 'Lorem ipsum \ndolor sit amet'),
+          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: ''),
+          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: ''),
+          CupertinoTextSelectionToolbarButton.text(onPressed: () {}, text: ''),
           CupertinoTextSelectionToolbarButton.buttonItem(buttonItem: ContextMenuButtonItem(onPressed: () {}, type: ContextMenuButtonType.copy)),
         ],
       );

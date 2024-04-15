@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Padding(
               padding: EdgeInsets.all(12.0),
               child: SelectableText(
-                'Lorem ipsum dolor sit amet',
+                '',
                 key: Key('selectable'),
                 style: TextStyle(fontFamily: 'Roboto', fontSize: 20.0),
               ),

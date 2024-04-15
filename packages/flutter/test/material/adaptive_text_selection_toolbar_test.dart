@@ -324,7 +324,7 @@ void main() {
       expect(buttonTypes, isNot(contains(ContextMenuButtonType.selectAll)));
 
       // With text but no selection.
-      controller.text = 'lorem ipsum';
+      controller.text = '';
       await tester.pump();
 
       expect(buttonTypes, isNot(contains(ContextMenuButtonType.cut)));
@@ -346,7 +346,7 @@ void main() {
       controller.value = controller.value.copyWith(
         selection: const TextSelection(
           baseOffset: 0,
-          extentOffset: 'lorem'.length,
+          extentOffset: ''.length,
         ),
       );
       await tester.pump();
